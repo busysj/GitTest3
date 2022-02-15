@@ -1,1 +1,17 @@
-asdasdsad
+git init
+git add .
+git commit -m " "
+git log
+ > 폴더에 커밋을 남김
+
+git remote add origin " "
+git push -u origin ' '
+ > 원격 저장소에 저장
+
+git branch ' '
+git checkout ' '
+git branch
+
+git merge ' '
+ > 항상 master branch에서 merge 
+
