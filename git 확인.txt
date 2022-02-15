@@ -15,3 +15,9 @@ git branch
 git merge ' '
  > 항상 master branch에서 merge 
 
+merge 충돌 시
+1. 충돌된 파일 확인
+2. 원하는 코드만 남겨둠
+3. git add .
+4. git commit -m " "
+
