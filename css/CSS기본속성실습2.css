@@ -1,0 +1,10 @@
+.tb1 {
+  background-color: cornsilk;
+  border-collapse: collapse;
+  border-radius: 20px;
+}
+
+.tr1 {
+  background-color: coral;
+  border-bottom: 2px solid red;
+}

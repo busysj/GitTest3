@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../css/linklist.css" type="text/css" rel="stylesheet" />
+    <link href="../css/tablesprite.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h3>링크에 CSS효과로 꾸미기</h3>
+    <a href="http://www.naver.com">네이버</a>
+
+    <h3>리스트에 CSS 꾸미기</h3>
+    <ul class="unordered_list_mark">
+      <li>순서가 없는 리스트</li>
+      <li>순서가 없는 리스트</li>
+      <li>순서가 없는 리스트</li>
+    </ul>
+    <ol class="ordered_list_mark">
+      <li>순서가 있는 리스트</li>
+      <li>순서가 있는 리스트</li>
+      <li>순서가 있는 리스트</li>
+    </ol>
+    <div>
+      <p>list-style-type을 none으로 만들면 앞의 숫자 혹은 마크가 없어진다</p>
+    </div>
+    <div>
+      <h1>테이블에 CSS효과 넣기</h1>
+      <table>
+        <tr>
+          <td>동물의 종류</td>
+          <td>개월 수</td>
+          <td>이름</td>
+        </tr>
+        <tr>
+          <td>강아지</td>
+          <td>6</td>
+          <td>초코</td>
+        </tr>
+        <tr>
+          <td>강아지</td>
+          <td>6</td>
+        </tr>
+      </table>
+      <p>
+        border-collapse 속성은 collapse(합치기) separate(분리) 값이 있다.<br />
+        이때 empty-cells를 사용할 때는 separate 속성 값일 때 사용이 가능하다.<br />
+        border-spacing도 동일
+      </p>
+    </div>
+    <div class="">
+      <h1>이미지 스프라이트 활용하기</h1>
+      <div class="up"></div>
+      <div class="down"></div>
+      <div class="left"></div>
+      <div class="right"></div>
+      <p>
+        이미지 스프라이트는 배경이미지를 통해서 그림을 잘라서 사용한다<br />
+        이 때 div의 width와 height를 사용하여 배경이미지를 사용할 공간을 지정<br />
+        div는 안에 컨텐츠가 없으면 공간을 주지 않는다
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+h1 {
+  font-family: fantasy;
+}
+
+div {
+  width: 50%;
+  border: 3px solid olive;
+  background-color: beige;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.link:link,
+.link:visited {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link:hover {
+  font-style: italic;
+  text-shadow: 1px 2px 2px gray;
+}
+
+span {
+  color: green;
+  text-decoration: underline wavy 2px red;
+}

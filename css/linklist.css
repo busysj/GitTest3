@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: red;
+  background-color: green;
+}
+
+a:active {
+  color: yellow;
+  background-color: blue;
+}
+
+.unordered_list_mark {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+.ordered_list_mark {
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+}
+
+li {
+  background-color: olive;
+}

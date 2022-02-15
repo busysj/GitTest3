@@ -1,0 +1,12 @@
+ul {
+  overflow: auto;
+  padding: 20px;
+  background-color: yellow;
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding: 20px;
+  background-color: darkgreen;
+}

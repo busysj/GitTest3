@@ -1,0 +1,41 @@
+table {
+  border: solid 3px black;
+  border-collapse: separate;
+  border-spacing: 10px;
+  text-align: center;
+  background-color: burlywood;
+  empty-cells: hide;
+}
+
+td {
+  border: dashed 1px gray;
+}
+
+.up,
+.down,
+.left,
+.right {
+  background-image: url("../img/img1.png");
+  width: 59px;
+  height: 62px;
+}
+
+.up {
+  background-image: url("../img/img1.png");
+  background-position: 0 0;
+}
+
+.down {
+  background-image: url("../img/img1.png");
+  background-position: -59px 0;
+}
+
+.left {
+  background-image: url("../img/img1.png");
+  background-position: -120px 0;
+}
+
+.right {
+  background-image: url("../img/img1.png");
+  background-position: -180px 0;
+}

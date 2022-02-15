@@ -1,0 +1,13 @@
+.float_left {
+  width: 20%;
+  background-color: blanchedalmond;
+  float: left;
+}
+
+.color_box {
+  border: 3px solid black;
+}
+
+p {
+  clear: both;
+}

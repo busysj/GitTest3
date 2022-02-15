@@ -1,0 +1,15 @@
+h1 {
+  margin-bottom: 40px;
+}
+
+a {
+  background-color: orange;
+  color: black;
+  border-radius: 20px;
+  padding: 18px 23px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: red;
+}

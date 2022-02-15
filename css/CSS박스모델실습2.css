@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+.tb1 {
+  background-color: cornsilk;
+  border-collapse: collapse;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.tr1 {
+  background-color: coral;
+  border-bottom: 2px solid red;
+}
+
+td {
+  padding: 12px 20px;
+}

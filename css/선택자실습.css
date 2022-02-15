@@ -1,0 +1,30 @@
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.color {
+  border: 3px solid salmon;
+}
+
+.hash > ul li {
+  margin: 10px;
+  padding: 10px;
+  float: right;
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.notice p::after {
+  content: "N";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
